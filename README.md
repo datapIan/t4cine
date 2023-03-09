@@ -27,7 +27,9 @@ There's two types of installations for this mod. One for the *Plutonium T4* clie
 
 #### [Plutonium](https://www.plutonium.pw) (Recommended)
 
-* Download the mod from [here](), extract and drag the "mp_t4cine" folder into your mods folder.
+* This mod was built on Plutonium and guarenteed to work on Plutonium.
+
+* Download the mod from [here](https://github.com/datapIan/t4cine/releases/latest), extract and drag the "mp_t4cine" folder into your mods folder.
 ```text
 C:/
 └── .../
@@ -40,7 +42,7 @@ Please note that for Plutonium mods, stats are stored as a per-mod basis.
 
 #### WAW Steam
 
-* * Download the mod from [here](), extract and drag the "mp_t4cine" folder into your mods folder.
+* * Download the mod from [here](https://github.com/datapIan/t4cine/releases/latest), extract and drag the "mp_t4cine" folder into your mods folder.
 ```text
 C:/
 └── .../
