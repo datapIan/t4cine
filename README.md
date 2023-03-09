@@ -19,7 +19,7 @@
 
  - Sass' mod changed the editing game, and it's what we've all used for cinematics for as long as we can remember. I believed the same level of personalization should be in every other game. So I did it.
 
-99% of the code was written by Sass, I take no credit for the work he has done, I just changed a few things to make it work on COD4.
+99% of the code was written by Sass, I take no credit for the work he has done, I just changed a few things to make it work on WAW.
 
 ## Installation
 
