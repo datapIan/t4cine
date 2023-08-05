@@ -1,59 +1,55 @@
 # *t4cine*
-<img src="https://images3.alphacoders.com/108/1080039.png" alt="screenshot" height="250px" align="right"/>
+<img src="https://images2.alphacoders.com/901/thumb-1920-90152.jpg" alt="screenshot" height="250px" width="400px" align="right"/>
 
 **A Port of [Sass' Cinematic Mod](https://github.com/sortileges/iw4cine) to Call of Duty World at War**
 
+<div align="left">
+<a href="https://github.com/datapIan/t4cine/releases"><img src="https://img.shields.io/github/v/release/datapIan/t4cine?label=Latest%20Release&style=flat-square"></a>
+  <a href="https://github.com/datapIan/t4cine/releases""><img src="https://img.shields.io/github/downloads/datapIan/t4cine/total?style=flat-square"></a>
+
 <p align="left">
-  <a href="#about">About</a> •
+  <a href="#requirements">Requirements</a> •
   <a href="#installation">Installation</a> •
   <a href="#usage">Usage</a> •
   <a href="#issues">Issues</a> •
   <a href="#credits">Credits</a>
 </p>
 
-<div align="left">
-<a href="https://github.com/datapIan/t4cine/releases"><img src="https://img.shields.io/github/v/release/datapIan/t4cine?label=Latest%20Release&style=flat-square"></a>
-  <a href="https://github.com/datapIan/t4cine/releases""><img src="https://img.shields.io/github/downloads/datapIan/t4cine/total?style=flat-square"></a>
+Sass' mod changed the way we made cinematics on Modern Warfare 2. I believed the same level of customization should be added to all the other games.
 
-## About
+This mod is missing actor functionality due to the game not having the right functions for it.
 
- - Sass' mod changed the editing game, and it's what we've all used for cinematics for as long as we can remember. I believed the same level of personalization should be in every other game. So I did it.
+<br/><br/>
+## Requirements
 
-99% of the code was written by Sass, I take no credit for the work he has done, I just changed a few things to make it work on WAW.
+In order to use this mod, you'll need a copy of World of War with/without a client installed.
 
+It is recommended you use this mod with [Plutonium](https://plutonium.pw) as this is the client the mod was built on. Plus, some functions don't work on Steam WAW.
+
+<br/><br/>
 ## Installation
 
-There's two types of installations for this mod. One for the *Plutonium T4* client, and one for the *Steam* client.
+Simply download the mod through [this link](https://github.com/datapIan/t4cine/releases/latest). Scroll down and click on `Source code.zip` and download the file.
 
-#### [Plutonium](https://www.plutonium.pw) (Recommended)
+<img src="https://i.imgur.com/DvQBhh0.png" alt="screenshot" height="230px" width="300px" align="right"/>
 
-* This mod was built on Plutonium and guarenteed to work on Plutonium.
+Once the mod is downloaded, extract the ZIP file and run either install script to automatically install the mod into either [Plutonium](https://plutonium.pw) or Steam mods folders. Alternatively, you can drag the `mp_t4cine` folder into your `WAW/mods` folder. If the `mods` folder doesn't exist, create it.
 
-* Download the mod from [here](https://github.com/datapIan/t4cine/releases/latest), extract and run `install_pluto.bat`. Alternatively
- you can drag the "mp_t4cine" folder into your mods folder.
-```text
+```
 C:/
 └── .../
-    └── t4/
+    └── WAW/
         └── mods/
             └── mp_t4cine
 ```
-Full path: `%localappdata%\Plutonium\storage\t4\mods`
-Please note that for Plutonium mods, stats are stored as a per-mod basis.
 
-#### WAW Steam
+- [Plutonium](https://plutonium.pw) full path: `%localappdata%\Plutonium\storage\t4`
 
-* * Download the mod from [here](https://github.com/datapIan/t4cine/releases/latest), extract and run `install_steam.bat`. Alternatively
- you can drag the "mp_t4cine" folder into your mods folder.
-```text
-C:/
-└── .../
-    └── CodWaW/
-        └── mods/
-            └── mp_t4cine
-```
-Full path: `%localappdata%\Activision\CoDWaW\mods`
+- Steam full path: `%localappdata%\Activision\CoDWaW`
 
+Once this is done open your game, then click on the "Mods" tab. `mp_t4cine` should appear in the list; click on it once and then click on "Launch" to restart your game with the mod on.
+
+<br/><br/>
 ## Usage
 
 * Most commands in-game function the same way as they did in MW2, except for the toggling type commands: `about, clone, clearbodies, mvm_eb, and mvm_bot_holdgun`
@@ -74,16 +70,16 @@ Full path: `%localappdata%\Activision\CoDWaW\mods`
   
   └── ~~A list of common_mp fx's can be found [here]().~~
   
-
+<br/><br/>
 ## Issues
 * ***Actors*** - Currently there is no support for actors and I don't think there ever will be.
 
 ### To report bugs or feature requests, please do so through [this](https://github.com/datapIan/t4cine/issues) link.
 
+<br/><br/>
 ## Credits
 
 * [Antiga](https://github.com/mprust) - Helped with .gsc related questions.
-* [Expert](https://github.com/soexperttt) - Told me I should start coding, althought I didn't technically code anything for this.
-* [ReeaL](https://github.com/reaalx) - Helped with .menu related questions.
-* [Sass](https://github.com/sortileges) - Wrote the original MW2 Cinematic Mod.
-* [yoyo1love](https://github.com/yoyothebest) - Helped with .gsc and .menu related questions.
+* [Expert](https://github.com/soexperttt) - :cat_kiss:
+* [Sass](https://github.com/sortileges) - Created the original MW2 Cinematic Mod.
+* [yoyo1love](https://github.com/yoyothebest) - :cat_kiss:
